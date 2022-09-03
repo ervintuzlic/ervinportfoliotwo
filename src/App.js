@@ -1,28 +1,6 @@
 import logo from './images/Frame274.png';
 import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn Your Mama
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-
 function App(){
   return(
     <div className="main-portfolio">
@@ -53,7 +31,10 @@ function App(){
         <h4>I'm 22 years old and I study <span>Software Engineering</span> at Faculty of Information Technologies</h4>
         <button type="submit" className="btn-sbw">learn more</button>
       </section>
-
+      <section className="secondary-section">
+        <h4>Check my socials!</h4>
+        <hr className="line"></hr>
+      </section>
     </div>
   );
 }
