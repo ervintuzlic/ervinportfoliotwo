@@ -1,4 +1,5 @@
 import logo from './images/Frame274.png';
+import { FaBeer } from 'react-icons/fa';
 import './App.css';
 
 function App(){
@@ -34,6 +35,11 @@ function App(){
       <section className="secondary-section">
         <h4>Check my socials!</h4>
         <hr className="line"></hr>
+        <div className="icons">
+            <a className="icon" href="https://www.google.com"><FaBeer />?</a>
+            <a className="icon" href="https://www.google.com"><i className="bi bi-github btn-wb"></i></a>
+            <a className="icon" href="https://www.google.com"><i className="bi bi-linkedin btn-wb"></i></a>
+        </div>
       </section>
     </div>
   );
