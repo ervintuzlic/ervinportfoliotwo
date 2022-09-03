@@ -27,7 +27,8 @@ function App(){
   return(
     <div className="main-portfolio">
       <div id="stars"></div>
-      <header className="header-portfolio">
+      <div className="header-portfolio">
+        <div className="header-container">
         <img className="logo" src={logo} alt="Logo"/>
         <nav className="navbar">
           <ul>
@@ -42,8 +43,9 @@ function App(){
             </li>
           </ul>
         </nav>
-        <button className="btn btn-wb">contact</button>
-      </header>
+        <a className="btn-wb" href="https://www.w3schools.com">contact</a>
+        </div>
+      </div>
       <section>
         <h1>Hi, my name is <span>Ervin</span>!</h1>
         <h4>I'm 22 years old and I study <span>Software Engineering</span> at Faculty of Information Technologies</h4>
