@@ -43,7 +43,9 @@ function App(){
             </li>
           </ul>
         </nav>
-        <a className="btn-wb" href="https://www.w3schools.com">contact</a>
+        <div className="buttondiv">
+          <button className="btn-wb">contact</button>
+        </div>
         </div>
       </div>
       <section>
