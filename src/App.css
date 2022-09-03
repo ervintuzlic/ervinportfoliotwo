@@ -213,7 +213,7 @@ html, body {
 }
 .navbar{
   display:inline-block;
-  margin-left: 15%;
+  margin-left: 16.5%;
   margin-bottom:1.6%;
   color:white;
 }
@@ -227,7 +227,8 @@ li a {
   text-decoration: none;
   display:block;
   font-size: 20px;
-  padding: 10px 36px;
+  margin: 0 20px 0 20px;
+  padding: 10px 20px;
   color: white;
 }
 .buttondiv{
@@ -247,4 +248,10 @@ li a {
 }
 .btn-wb:hover {
   cursor: pointer;
+}
+
+/*     MAIN SECTION      */
+.main-section{
+  text-align: center;
+  margin-top: 13%;
 }
