@@ -51,8 +51,9 @@ function App(){
       <section className="main-section">
         <h1>Hi, my name is <span>Ervin</span>!</h1>
         <h4>I'm 22 years old and I study <span>Software Engineering</span> at Faculty of Information Technologies</h4>
-        <button>learn more</button>
+        <button type="submit" className="btn-sbw">learn more</button>
       </section>
+
     </div>
   );
 }
